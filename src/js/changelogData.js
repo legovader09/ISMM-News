@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v1.0.5",
+    date: "April 15, 2025",
+    summary: "NoSyncGameLoad prevention.",
+    improvements: [
+      "Added checks to make sure NoSyncGameLoad does not get imported or deployed, as this mod is no longer required.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v1.0.4",
     date: "April 14, 2025",
     summary: "Auto-import features and bug fixes.",
