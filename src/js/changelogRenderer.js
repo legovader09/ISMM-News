@@ -1,5 +1,15 @@
+/**
+ * Renders a single changelog entry to the DOM
+ * @param {Object} options - The changelog entry data
+ * @param {HTMLElement} container - The container to append to
+ */
 function renderEntry(options, container) {
-  const { version, date, summary, features = [], bugfixes = [], improvements = [] } = options;
+  const version = options.version;
+  const date = options.date;
+  const summary = options.summary;
+  const features = options.features || [];
+  const bugfixes = options.bugfixes || [];
+  const improvements = options.improvements || [];
 
   const versionContainer = document.createElement('div');
   versionContainer.className = 'version-container';
@@ -32,26 +42,38 @@ function renderEntry(options, container) {
   changeList.className = 'change-list';
 
   if (features.length > 0) {
-    changeList.appendChild(createCategorySection('Features', features, 'features'));
+    const featuresSection = createCategorySection('Features', features, 'features');
+    changeList.appendChild(featuresSection);
   }
 
   if (bugfixes.length > 0) {
-    changeList.appendChild(createCategorySection('Bug Fixes', bugfixes, 'bugfixes'));
+    const bugfixesSection = createCategorySection('Bug Fixes', bugfixes, 'bugfixes');
+    changeList.appendChild(bugfixesSection);
   }
 
   if (improvements.length > 0) {
-    changeList.appendChild(createCategorySection('Improvements', improvements, 'improvements'));
+    const improvementsSection = createCategorySection('Improvements', improvements, 'improvements');
+    changeList.appendChild(improvementsSection);
   }
 
   versionContent.appendChild(changeList);
+
   versionContainer.appendChild(versionHeader);
   versionContainer.appendChild(versionContent);
+  
   container.appendChild(versionContainer);
 }
 
+/**
+ * Creates a category section (features, bugfixes, improvements)
+ * @param {string} title - The category title
+ * @param {Array} items - List of changes in this category
+ * @param {string} className - CSS class for the category
+ * @returns {HTMLElement} - The category section element
+ */
 function createCategorySection(title, items, className) {
   const section = document.createElement('div');
-  section.className = `change-category ${className}`;
+  section.className = "change-category " + className;
 
   const categoryTitle = document.createElement('div');
   categoryTitle.className = 'category-title';
@@ -60,7 +82,7 @@ function createCategorySection(title, items, className) {
 
   const list = document.createElement('ul');
 
-  items.forEach(item => {
+  items.forEach(function(item) {
     const listItem = document.createElement('li');
     if (typeof item === 'object' && item.text && item.tag) {
       listItem.textContent = item.text;
@@ -73,6 +95,7 @@ function createCategorySection(title, items, className) {
     } else {
       listItem.textContent = item;
     }
+
     list.appendChild(listItem);
   });
 
