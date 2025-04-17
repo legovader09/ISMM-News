@@ -1,5 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v1.0.6",
+    date: "April 17, 2025",
+    summary: "Update checker and UI fixes.",
+    features: [
+      { text: "App checks for updates on every startup so that you don't have to", tag: "New" },
+    ],
+    bugfixes: [
+      "UI buttons and label scaling fixes",
+      "Better NoSyncGameLoad checking in case of slight rename"
+    ]
+  });
+
+  addChangelogEntry({
     version: "v1.0.5",
     date: "April 15, 2025",
     summary: "NoSyncGameLoad prevention.",
