@@ -1,5 +1,26 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.0.0 (Open Beta 1)",
+    date: "May 10, 2025",
+    summary: "New UI and mod system",
+    features: [
+      { text: "Complete UI redesign", tag: "New" },
+    ],
+    improvements: [
+      "New mod system with better mod management and deployment",
+      `New mod structure:
+      <ul>
+      <li>Mod files are now stored in a separate folder</li>
+      <li>ISMM now looks for a banner.png, and a manifest.json to display mod content</li>
+      <li>Mods without a manifest are still loaded but with limited description.</li>
+      </ul>`,
+    ],
+    bugfixes: [
+      "New UI system fixes various text, button, and layout issues",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v1.0.6",
     date: "April 17, 2025",
     summary: "Update checker and UI fixes.",

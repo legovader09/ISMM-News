@@ -93,7 +93,7 @@ function createCategorySection(title, items, className) {
 
       listItem.appendChild(tag);
     } else {
-      listItem.textContent = item;
+      listItem.innerHTML = item;
     }
 
     list.appendChild(listItem);
