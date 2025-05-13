@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.0.1 (Open Beta 2)",
+    date: "May 13, 2025",
+    summary: "Minor improvements based on user feedback.",
+    improvements: [
+      "Tutorial message now shows up when there are no mods installed.",
+    ],
+    bugfixes: [
+      "Fixed ISMM Watcher plugin console spam.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v2.0.0 (Open Beta 1)",
     date: "May 10, 2025",
     summary: "New UI and mod system",
