@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.0.2 Full Release",
+    date: "May 21, 2025",
+    summary: "V2 comes out of open beta and is now the default version.",
+    improvements: [
+      "Mod manifests now get generated for mods that don't have one, improving load times.",
+    ],
+  });
+
+  addChangelogEntry({
     version: "v2.0.1 (Open Beta 2)",
     date: "May 13, 2025",
     summary: "Minor improvements based on user feedback.",
