@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.0.3 Game Update",
+    date: "May 23, 2025",
+    summary: "Update internal mod loader binaries to match the latest game version.",
+    improvements: [
+      "Update internal mod loader binaries to match the latest game version.",
+    ],
+    bugfixes: [
+      "Fixed dialog boxes not showing text correctly under some conditions.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v2.0.2 Full Release",
     date: "May 21, 2025",
     summary: "V2 comes out of open beta and is now the default version.",
