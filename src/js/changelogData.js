@@ -1,6 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
-    version: "v2.0.3 Game Update",
+    version: "v2.0.4",
+    date: "May 23, 2025",
+    summary: "Log folder button.",
+    features: [
+      "Added 'Open Log Folder' button to quickly access the Latest.log file.",
+    ],
+    improvements: [
+      "Mod manager now checks Idle Slayer folder every startup to ensure that there are no leftover MelonLoader folders.",
+    ]
+  });
+
+  addChangelogEntry({
+    version: "v2.0.3",
     date: "May 23, 2025",
     summary: "Update internal mod loader binaries to match the latest game version.",
     improvements: [
