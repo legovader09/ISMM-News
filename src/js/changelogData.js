@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.0.7",
+    date: "May 28, 2025",
+    summary: "Bug fixes.",
+    bugfixes: [
+      "Fixed issue where disabled mods would sometimes reset itself on app startup.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v2.0.6",
     date: "May 26, 2025",
     summary: "Idle Slayer 6.3.2 compatibility.",
