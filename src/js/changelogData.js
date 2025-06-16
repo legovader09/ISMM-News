@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "June 16, 2025",
     summary: "Idle Slayer 6.3.7 compatibility.",
     features: [
-      "Updated mod loader to be compatible with Idle Slayer 6.3.5.",
-      "Idle Slayer has been downgraded to Unity 2022, so the mod loader now has the correct Unity version.",
+      "Updated mod loader to be compatible with Idle Slayer 6.3.7.",
     ]
   });
 
