@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.1.0",
+    date: "June 28, 2025",
+    summary: "Core Mod Warnings",
+    improvements: [
+      "App now shows warnings if the core mod is not installed.",
+    ],
+    bugfixes: [
+      "Small optimizations to the mod loading process.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v2.0.13",
     date: "June 27, 2025",
     summary: "Idle Slayer 6.3.9 compatibility.",
