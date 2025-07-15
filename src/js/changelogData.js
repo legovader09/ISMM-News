@@ -1,5 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.1.1",
+    date: "July 15, 2025",
+    summary: "Idle Slayer 6.4.0 compatibility and performance improvements.",
+    improvements: [
+      "App now lets you clear the MelonLoader folder from within the settings (requires restart).",
+      "App automatically clears the il2cpp_out folder after every game update which should help prevent crashes."
+    ],
+    bugfixes: [
+      "Improved mod manager loading times when it's not a new installation.",
+    ]
+  });
+
+  addChangelogEntry({
     version: "v2.1.0",
     date: "June 28, 2025",
     summary: "Core Mod Warnings",
