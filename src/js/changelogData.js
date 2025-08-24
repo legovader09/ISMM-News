@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.1.2",
+    date: "August 24, 2025",
+    summary: "Idle Slayer 6.4.5 compatibility.",
+    features: [
+      "Updated mod loader to be compatible with Idle Slayer 6.3.9.",
+    ],
+  });
+
+  addChangelogEntry({
     version: "v2.1.1",
     date: "July 15, 2025",
     summary: "Idle Slayer 6.4.0 compatibility and performance improvements.",
