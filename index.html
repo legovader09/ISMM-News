@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-<!--suppress CssUnusedSymbol -->
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Changelog</title>
-    <link rel="stylesheet" href="src/styles.css" />
+    <title>Download Hub | ISMM</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
 </head>
 <body>
 
-<header>
+<header class="header-large">
     <div class="container">
-        <h1>Changelog</h1>
-        <p class="subtitle">Track all updates and improvements for ISMM</p>
+        <section class="header-title">
+            <img src="/assets/icon.png" alt="ISMM Icon" class="header-icon" width="64" />
+            <h1>Idle Slayer Mod Manager</h1>
+        </section>
+        <p class="subtitle">Download Hub</p>
+        <p>Looking for the changelogs? <a href="/changelog.html">Click here!</a></p>
     </div>
 </header>
 
+<!-- TODO: Redirect to "Thanks for downloading page", with extra information, and the tutorial video -->
 <div class="container">
-    <div id="changelog"></div>
+    <div class="row download-main-container justify-content-center">
+        <h3 class="col-12 text-align-center">Available downloads</h2>
+        <section class="col-6 download-section text-align-center">
+            <h4>Latest Stable Release</h3>
+            <a href="/downloads/IdleSlayerModManager.exe" class="btn-download">Download ISMM V2.2.0</a>
+            <p>The latest stable version of Idle Slayer Mod Manager. Recommended for most users.</p>
+        </section>
+        <section class="col-6 download-section text-align-center">
+            <h4>BETA Release</h3>
+            <a href="" class="btn-download btn-download-alternate">Currently Unavailable</a>
+            <p>The latest BETA version of Idle Slayer Mod Manager. May contain new features but could be unstable.</p>
+        </section> 
+    </div>
 </div>
 
-<script src="src/js/changelogRenderer.js"></script>
-<script src="src/js/changelogLogic.js"></script>
-<script src="src/js/changelogData.js"></script>
+<div class="container mt-2">
+    <div class="download-extras-container">
+        <h3>Additional downloads</h2>
+        <ul class="download-list">
+            <li><a href="/downloads/ModLoader.zip" class="download-link">MelonLoader ZIP</a> - Required only if MelonLoader fails to extract into the ModLoader folder.</li>
+            <li><a href="/downloads/ISMM.Console.bat" class="download-link">Console Mode Batch File</a> - Place in same area as ISMM and open to see console output.</li>
+            <li><a href="/downloads/IdleSlayerModManagerLegacy.exe" class="download-link">Idle Slayer Mod Manager LEGACY V1</a> - No longer in use, here for archive purposes.</li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>

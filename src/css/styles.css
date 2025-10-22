@@ -1,0 +1,294 @@
+:root {
+  --color-text: #fff3db;
+  --color-bg: #1B1B1E;
+  --color-primary: #934AA0;
+  --color-primary-darker: #70395f;
+  --color-primary-dark: #45273C;
+  --color-highlight: #FFAA00;
+  --color-border: #825A78;
+  --color-card-bg: #2D2D30;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-shadow-light: rgba(0, 0, 0, 0.2);
+  --color-feature: #4DD257;
+  --color-bugfix: #FF5252;
+  --color-improvement: #934AA0;
+  --color-version-number: #ffcc00;
+}
+
+/* Layout Helpers */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+.col-6 {
+  flex: 0 0 48%;
+}
+
+@media screen and (max-width: 768px) {
+  .col-6 {
+    flex: 0 0 100%;
+  }
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  padding-bottom: 2rem;
+}
+
+header {
+  background: linear-gradient(135deg, var(--color-primary-darker), var(--color-primary-dark));
+  color: var(--color-text);
+  padding: 5rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px var(--color-shadow);
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    img {
+      border-radius: 12px;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+a {
+  color: var(--color-highlight);
+  text-decoration: none;
+}
+
+.subtitle {
+  font-weight: 600;
+  opacity: 0.85;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.version-container {
+  background-color: var(--color-card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 12px var(--color-shadow-light);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.version-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  background-color: var(--color-primary-dark);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.version-number {
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: var(--color-version-number);
+}
+
+.version-date {
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.version-content {
+  padding: 1.5rem;
+}
+
+.change-summary {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.change-list {
+  margin-top: 1.2rem;
+}
+
+.change-category {
+  margin-bottom: 1.2rem;
+}
+
+.category-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.category-title::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.features .category-title::before {
+  background-color: var(--color-feature);
+}
+
+.bugfixes .category-title::before {
+  background-color: var(--color-bugfix);
+}
+
+.improvements .category-title::before {
+  background-color: var(--color-improvement);
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  margin-left: 0.5rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .version-header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .version-date {
+      margin-top: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .header-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+.download-main-container {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 2rem;
+  box-shadow: 0 2px 12px var(--color-shadow-light);
+  display: flex;
+}
+
+.download-section {
+  a {
+    margin: .5rem 0 1rem;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px var(--color-shadow);
+  transition: background-color 0.2s ease;
+
+  &.btn-download-alternate {
+    background-color: var(--color-highlight);
+    color: var(--color-bg);
+
+    &:hover {
+      background-color: #eec660;
+    } 
+  }
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+  }
+}
