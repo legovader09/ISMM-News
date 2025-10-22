@@ -128,6 +128,13 @@ li {
   position: relative;
 }
 
+code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 a {
   color: var(--color-highlight);
   text-decoration: none;
@@ -138,6 +145,14 @@ a {
   opacity: 0.85;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.alert {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 2rem;
+  box-shadow: 0 2px 12px var(--color-shadow-light);
+  display: flex;
 }
 
 .version-container {
