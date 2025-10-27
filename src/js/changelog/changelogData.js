@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.2.1",
+    date: "October 27, 2025",
+    summary: "Idle Slayer 6.5.10 compatibility.",
+    features: [
+      "Updated mod loader to be compatible with Idle Slayer 6.5.10.",
+    ],
+  });
+
+  addChangelogEntry({
     version: "v2.2.0",
     date: "October 21, 2025",
     summary: "Input Mapper for config entries. <b>Please note that there is no compatibility for Idle Slayer 6.5.7+ yet.</b> — See <a href=\"discord://discord.com/channels/1358070518510522508/1358071676507656192/1429964556905742487\">this post</a> for more details.",
