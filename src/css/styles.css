@@ -135,9 +135,13 @@ code {
   font-family: 'Courier New', Courier, monospace;
 }
 
-a {
+a:not(.btn-download) {
   color: var(--color-highlight);
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .subtitle {
@@ -275,9 +279,6 @@ a {
 }
 
 .download-section {
-  a {
-    margin: .5rem 0 1rem;
-  }
   p {
     font-size: 14px;
   }
@@ -287,6 +288,7 @@ a {
   display: inline-block;
   background-color: var(--color-primary);
   color: var(--color-text);
+  margin: .5rem 0;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   text-decoration: none;

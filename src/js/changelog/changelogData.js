@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   addChangelogEntry({
+    version: "v2.2.2",
+    date: "November 11, 2025",
+    summary: "Uninstall button.",
+    features: [
+      "Added an uninstall button in the app settings to easily delete all ISMM data. You will need to manually delete the app file itself after completion if you wish to fully uninstall.",
+    ],
+  });
+
+  addChangelogEntry({
     version: "v2.2.1",
     date: "October 27, 2025",
     summary: "Idle Slayer 6.5.10 compatibility.",
