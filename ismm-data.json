@@ -1,6 +1,8 @@
 {
   "latest_version": "2.2.2",
   "latest_version_beta": "2.2.2",
+  "latest_working_idleslayer_version": "6.5.10",
+  "is_latest_idleslayer_broken": true,
   "virus_total_scan": "https://www.virustotal.com/gui/file-analysis/ZWJiMWMxODgxNTRiZTczOTNhYjY2Zjc0Y2RlYjA4NGQ6MTc2Mjg3NTQ0Mw==",
   "download_url": "discord://discord.com/channels/1358070518510522508/1358071611290550507"
 }
