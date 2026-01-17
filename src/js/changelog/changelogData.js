@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "October 21, 2025",
     summary: "Input Mapper for config entries. <b>Please note that there is no compatibility for Idle Slayer 6.5.7+ yet.</b> — See <a href=\"discord://discord.com/channels/1358070518510522508/1358071676507656192/1429964556905742487\">this post</a> for more details.",
     features: [
-      "New BETA update channel. Opt in from settings to get early access to new features and fixes.",
+      { text: "New BETA update channel. Opt in from settings to get early access to new features and fixes.", tag: "New" },
       "Added automatic input mapper for config entries. This converts key presses to what unity expects. For example, pressing \"1\" will now set the config entry to \"Alpha1\".",
     ],
     improvements: [
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "April 17, 2025",
     summary: "Update checker and UI fixes.",
     features: [
-      "App checks for updates on every startup so that you don't have to manually check anymore",
+      { text: "App checks for updates on every startup so that you don't have to", tag: "New" },
     ],
     bugfixes: [
       "UI buttons and label scaling fixes",
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "April 14, 2025",
     summary: "Auto-import features and bug fixes.",
     features: [
-      "Automatically import existing MelonLoader installation when you set the game path (automatic if game path is already found)"
+      { text: "Automatically import existing MelonLoader installation when you set the game path (automatic if game path is already found)", tag: "New" },
     ],
     bugfixes: [
       "Small UI fixes",
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "April 11, 2025",
     summary: "New app styles and bug fixes.",
     features: [
-      "Better app styling and colour scheme"
+      { text: "Better app styling and colour scheme", tag: "New" },
     ],
     improvements: [
       "Slightly better description parsing in config entry editor",
@@ -284,9 +284,9 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "April 09, 2025",
     summary: "New features and bug fixes.",
     features: [
-      "Open Mod Manager Folder button",
-      "Changelog viewer",
-      "Added '+ / -' buttons to add and remove mods easily",
+      { text: "Open Mod Manager Folder button", tag: "New" },
+      { text: "Changelog viewer", tag: "New" },
+      { text: "Added '+ / -' buttons to add and remove mods easily", tag: "New" },
       "Added a deploy button to deploy mods without launching the game",
       "Added a file watcher so that mod lists are automatically updated when external changes are made"
     ],
@@ -304,8 +304,8 @@ document.addEventListener('DOMContentLoaded', function () {
     date: "April 08, 2025",
     summary: "Small improvements.",
     features: [
-      "App icon",
-      "Config editor",
+      { text: "App icon", tag: "New" },
+      { text: "Config editor", tag: "New" },
       "Added a deploy button to deploy mods without launching the game"
     ],
     improvements: [

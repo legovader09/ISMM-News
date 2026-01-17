@@ -20,10 +20,7 @@
     "date": "October 21, 2025",
     "summary": "Input Mapper for config entries. <b>Please note that there is no compatibility for Idle Slayer 6.5.7+ yet.</b> — See <a href=\"discord://discord.com/channels/1358070518510522508/1358071676507656192/1429964556905742487\">this post</a> for more details.",
     "features": [
-      {
-        "text": "New BETA update channel. Opt in from settings to get early access to new features and fixes.",
-        "tag": "New"
-      },
+      "New BETA update channel. Opt in from settings to get early access to new features and fixes.",
       "Added automatic input mapper for config entries. This converts key presses to what unity expects. For example, pressing \"1\" will now set the config entry to \"Alpha1\"."
     ],
     "improvements": [
@@ -192,10 +189,7 @@
     "date": "May 10, 2025",
     "summary": "New UI and mod system",
     "features": [
-      {
-        "text": "Complete UI redesign",
-        "tag": "New"
-      }
+      "Complete UI redesign"
     ],
     "improvements": [
       "New mod system with better mod management and deployment",
@@ -210,10 +204,7 @@
     "date": "April 17, 2025",
     "summary": "Update checker and UI fixes.",
     "features": [
-      {
-        "text": "App checks for updates on every startup so that you don't have to",
-        "tag": "New"
-      }
+      "App checks for updates on every startup so that you don't have to manually check anymore."
     ],
     "bugfixes": [
       "UI buttons and label scaling fixes",
@@ -233,10 +224,7 @@
     "date": "April 14, 2025",
     "summary": "Auto-import features and bug fixes.",
     "features": [
-      {
-        "text": "Automatically import existing MelonLoader installation when you set the game path (automatic if game path is already found)",
-        "tag": "New"
-      }
+      "Automatically import existing MelonLoader installation when you set the game path (automatic if game path is already found)"
     ],
     "bugfixes": [
       "Small UI fixes",
@@ -249,10 +237,7 @@
     "date": "April 11, 2025",
     "summary": "New app styles and bug fixes.",
     "features": [
-      {
-        "text": "Better app styling and colour scheme",
-        "tag": "New"
-      }
+      "Better app styling and colour scheme"
     ],
     "improvements": [
       "Slightly better description parsing in config entry editor",
@@ -269,18 +254,9 @@
     "date": "April 09, 2025",
     "summary": "New features and bug fixes.",
     "features": [
-      {
-        "text": "Open Mod Manager Folder button",
-        "tag": "New"
-      },
-      {
-        "text": "Changelog viewer",
-        "tag": "New"
-      },
-      {
-        "text": "Added '+ / -' buttons to add and remove mods easily",
-        "tag": "New"
-      },
+      "Open Mod Manager Folder button",
+      "Changelog viewer",
+      "Added '+ / -' buttons to add and remove mods easily",
       "Added a deploy button to deploy mods without launching the game",
       "Added a file watcher so that mod lists are automatically updated when external changes are made"
     ],
@@ -297,14 +273,8 @@
     "date": "April 08, 2025",
     "summary": "Small improvements.",
     "features": [
-      {
-        "text": "App icon",
-        "tag": "New"
-      },
-      {
-        "text": "Config editor",
-        "tag": "New"
-      },
+      "New app icon",
+      "New config editor",
       "Added a deploy button to deploy mods without launching the game"
     ],
     "improvements": [
