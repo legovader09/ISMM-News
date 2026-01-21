@@ -1,5 +1,14 @@
 [
   {
+    "version": "v2.2.3",
+    "date": "January 21, 2026",
+    "summary": "Update MelonLoader version. Note that mods on 6.6+ are still not working yet.",
+    "features": [
+      "Updated MelonLoader to the latest version.",
+      "Uninstall button now deletes mod files inside the Idle Slayer game path."
+    ]
+  },
+  {
     "version": "v2.2.2",
     "date": "November 11, 2025",
     "summary": "Uninstall button.",
