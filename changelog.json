@@ -1,5 +1,17 @@
 [
   {
+    "version": "v2.2.4",
+    "date": "January 30, 2026",
+    "summary": "Quality of Life update.",
+    "improvements": [
+      "Uninstall button now asks for confirmation before deleting files.",
+      "Clear MelonLoader button now automatically closes the app. You will need to open it manually after.",
+      "Prompt to refresh MelonLoader files after updating app.",
+      "WatcherPlugin has been updated to remove all console entries",
+      "Mod manifest gets updated properly when mod dll is replaced."
+    ]
+  },
+  {
     "version": "v2.2.3",
     "date": "January 21, 2026",
     "summary": "Update MelonLoader version. Note that mods on 6.6+ are still not working yet.",
