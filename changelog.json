@@ -1,5 +1,14 @@
 [
   {
+    "version": "v2.2.5",
+    "date": "February 1, 2026",
+    "summary": "Fix app crashes on startup.",
+    "bugfixes": [
+      "Changed Update URL source as previous one is unreliable.",
+      "Added better error handling for when app freezes and crashes."
+    ]
+  },
+  {
     "version": "v2.2.4",
     "date": "January 30, 2026",
     "summary": "Quality of Life update.",
