@@ -1,5 +1,25 @@
 [
   {
+    "version": "v2.2.6",
+    "date": "February 18, 2026",
+    "summary": "Idle Slayer 6.7.4 compatibility",
+    "features": [
+      "Added support for Idle Slayer 6.7.4"
+    ],
+    "bugfixes": [
+      "Fixed app repeatedly going to foreground under certain circumstances."
+    ]
+  },
+  {
+    "version": "v2.2.5",
+    "date": "February 1, 2026",
+    "summary": "Fix app crashes on startup.",
+    "bugfixes": [
+      "Changed Update URL source as previous one is unreliable.",
+      "Added better error handling for when app freezes and crashes."
+    ]
+  },
+  {
     "version": "v2.2.4",
     "date": "January 30, 2026",
     "summary": "Quality of Life update.",
