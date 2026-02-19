@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "version": "v2.2.6",
     "date": "February 18, 2026",
     "summary": "Idle Slayer 6.7.4 compatibility",
@@ -11,6 +12,8 @@
     ]
   },
   {
+=======
+>>>>>>> 32d6ed6a07b6ceb3552a34b271ccec53fcdc7d70
     "version": "v2.2.5",
     "date": "February 1, 2026",
     "summary": "Fix app crashes on startup.",
