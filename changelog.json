@@ -1,5 +1,13 @@
 [
   {
+    "version": "v2.2.7",
+    "date": "March 3, 2026",
+    "summary": "Idle Slayer 6.7.6 compatibility",
+    "features": [
+      "Added support for Idle Slayer 6.7.6"
+    ]
+  },
+  {
     "version": "v2.2.6",
     "date": "February 18, 2026",
     "summary": "Idle Slayer 6.7.4 compatibility",
