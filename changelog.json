@@ -1,11 +1,21 @@
 [
   {
+    "version": "v2.2.9",
+    "date": "March 9, 2026",
+    "summary": "Bug fixes",
+    "bugfixes": [
+      "Fix issue where new version available dialog would show up incorrectly"
+    ]
+  },
+  {
     "version": "v2.2.8",
     "date": "March 6, 2026",
     "summary": "Stability and performance improvements",
     "improvements": [
-      "Fix issue where malformed or invalid banner would cause the app to crash.",
       "Slightly improved mod loading performance"
+    ],
+    "bugfixes": [
+      "Fix issue where malformed or invalid banner would cause the app to crash."
     ]
   },
   {
