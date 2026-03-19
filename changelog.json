@@ -1,5 +1,13 @@
 [
   {
+    "version": "v2.2.11",
+    "date": "March 19, 2026",
+    "summary": "Small bug fix update.",
+    "bugfixes": [
+      "Fix first time use creating random files in executing directory."
+    ]
+  },
+  {
     "version": "v2.2.10",
     "date": "March 19, 2026",
     "summary": "Quality of Life update and bug fixes.",
