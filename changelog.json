@@ -1,5 +1,20 @@
 [
   {
+    "version": "v2.2.10",
+    "date": "March 19, 2026",
+    "summary": "Quality of Life update and bug fixes.",
+    "features": [
+      "Added a right-click menu on config files that lets users delete the config file, open the config folder in file explorer, and open the config file directly."
+    ],
+    "improvements": [
+      "Newly added mods now show at the top of the mod list instead of the bottom.",
+      "Config entries now show the category they belong to for easier identification."
+    ],
+    "bugfixes": [
+      "Fixed issue where mod list would sometimes show duplicate entries."
+    ]
+  },
+  {
     "version": "v2.2.9",
     "date": "March 9, 2026",
     "summary": "Bug fixes",
