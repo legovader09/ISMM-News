@@ -1,5 +1,17 @@
 [
   {
+    "version": "v2.2.12",
+    "date": "March 26, 2026",
+    "summary": "Config Editor improvements. These changes should fix various issues with config files not loading properly",
+    "features": [
+      "Added a 'Clear' button that resets the config entry to a default value (0 for numbers, empty for text, and 'None' for keybinds."
+    ],
+    "improvements": [
+      "Config editor now loads and saves decimals, collections [] and file paths correctly.",
+      "Config editor now parses multi-line descriptions, and saves them correctly."
+    ]
+  },
+  {
     "version": "v2.2.11",
     "date": "March 19, 2026",
     "summary": "Small bug fix update.",
