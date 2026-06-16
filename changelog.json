@@ -1,5 +1,13 @@
 [
   {
+    "version": "v2.2.13",
+    "date": "June 16, 2026",
+    "summary": "Compatibility for new UnityExplorer",
+    "features": [
+      "Added compatibility for the updated UnityExplorer mod."
+    ]
+  },
+  {
     "version": "v2.2.12",
     "date": "March 26, 2026",
     "summary": "Config Editor improvements. These changes should fix various issues with config files not loading properly",
